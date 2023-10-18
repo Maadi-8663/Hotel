@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    margin: 0;
+    padding: 1;
+}
+
+body{
+     background-color: rgba(176, 230, 154, 0.41);
+     cursor: cell;
+     padding-left: 5px;
+     padding-bottom: 4px;
+    }
+
+h2 a{
+    color: rgb(27, 119, 8);
+    font-family: 'Noto Serif', serif;
+    font-size: 2.5vw;
+    padding: 2vh 0;
+    cursor: crosshair;
+}
+
+h2 a:hover{
+    color: rgb(14, 82, 1);
+    font-size: 2.6vw;
+    border-bottom: 1px solid green;
+}
+
+.welcome{
+    color: #9bdd7d;
+    font-size: 1.5vw;
+    padding-top: 20px;
+}
+
+nav{
+    height: 42px;
+    width: calc(100% - 35px);
+    background-color: rgb(95, 196, 102);
+    display: inline-flex;
+    justify-content: space-around;
+    border-radius: 25vh 0 0 0;
+}
+h3, h4{
+    color: rgb(9, 123, 5);
+    font-size: 2vw;
+    padding-bottom: 3vh;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+h1{
+    color: rgb(7, 155, 105);
+    margin-top: 12px;
+    font-size: 4vw;
+    font-family: 'Black Ops One', cursive;
+}
+nav div a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: rgb(222, 233, 225);
+    font-family: 'Noto Serif JP', serif;
+    color: #035203;
+    font-size: large;
+}
+
+.Navitems{
+    position: absolute;
+
+}
+.hotels{
+    height: 31px;
+    border-radius: 200px;
+    animation: logo 1s ease-in 1 ;
+}
+@keyframes logo {
+    0%{
+        height: 100vh;
+        width: 100vw;
+    }
+    100%{
+        height: 31px;
+        border-radius: 200px;
+    }
+}
+.head{
+    display: flex;
+}
+.s1{
+    height: 30px;
+    width: 512px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+.s1:hover{
+    height: 34px;
+    width: 520px;
+}
+.index{
+    width: 30vw;
+    border: 0.2vw solid black;
+    cursor: cell;
+}
+center img{
+    width: 50vw;
+    border: 0.2vw solid black;
+    border-radius: 100vh;
+}
+.logo{
+    height: 16vh;
+    width: 14vw;
+    border: 2px solid black;
+    border-radius: 25vw;
+}
+.logo:hover{
+    height: 18vh;
+    width: 16vw;
+    cursor: crosshair;
+}
+.click{
+    display: flex;
+    justify-content: space-between;
+}
+.maadi{
+    width: 25vw;
+    border: 1px solid black;
+    border-radius: 23vh;
+}
+.lct{
+  display: block;
+
+  background-color: #9ebd8fb0;
+  border-radius: 7%;
+}
+.lct:hover{
+    background-color: #86d35fb0;
+    border-radius: 7%;
+    cursor: crosshair;
+  }
+.info{
+    width: 50vw;
+    color: #3d6219;
+}
+.lcttext{
+text-decoration: none; 
+text-align: center;
+}
+.lcttext:hover{
+    cursor: crosshair;
+  }
+    .s2{
+        background-color: #70d970;
+        border: 2px solid #d6e3c8;
+        color: azure;
+    }
+    .s2:hover{
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    .gototop{
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #69e269;
+        color: white;
+        margin-bottom: 1vh;
+        cursor: crosshair;
+    }
+    .gototop:hover{
+        height: 30px;
+        font-weight: bolder;
+        color: black;
+        background-color: #87f387;
+    }
+    .contactUs{
+        width: auto;
+        background-color: #87917a;
+        color: #c4d9a9;
+    }
+    .contactUs h5{
+        font-size: medium;
+    }
+    .mmadiTag{
+        font-family: 'Tourney', cursive;
+        font-size: 5px;
+    }
+    .contactUs h3{
+        color: #50524e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        color: black;
+    }
+    .ph{
+        font-size: small;
+    }
+    .names{
+        width: 25vw;
+        height: 25px;
+    }
+    .add div{
+        padding: 5px 0;
+    }
+    .shallow{
+        font-size: medium;
+        color: gray;
+    }
+.submitHotels{
+    width: 500px;
+    height: 25px;
+    background: linear-gradient(to right, #d6c564, #baf31e);
+    margin-top: 10vh;
+    color: #035203;
+    cursor: crosshair;
+}
+.submitHotels:hover{
+    width: 520px;
+    height: 30px;
+    z-index: 2px;
+}
+.add{
+    width: 80vw;
+    height: 528px;
+    border: 2px solid rgb(12, 155, 33);
+    background-color: #ade7ad;
+}
+.add h2{
+    color: #3d6219;
+}
+.nameOfPerson{
+    width: 20vw;
+    height: 20px;
+}
+.nameOfPerson:hover{
+    width: 22vw;
+    height: 25px;
+}
+.suggestor{
+    font-size: medium;
+}
+.gotoAddHotels a{
+    height: 60px;
+    background-color: #5ba4f1;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}.gotoAddHotels a:hover{
+    background-color: #81f090;
+    color: black;
+    text-decoration: underline;
+    cursor: crosshair;
+    font-weight: bolder;
+    font-size: medium;
+}
+.menu{
+    margin-top: 5px;
+}
+.dropdown{
+    background-color: rgb(95, 196, 102);
+     color: #3628f3;
+     z-index: 1;
+     display: none;
+     position: relative;
+     border: 2px solid green;
+} 
+.menu:hover .dropdown{
+    display: block;
+}
+.drop img{
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+.ADDHotel{
+    position: relative;
+    right: 250px;
+    margin-top: 7px;
+}
+.ADDHotel:hover{
+    border-bottom: 2px solid #061306;
+    font-weight: bolder;
+    background-color: #81f090;
+}
+.dropdown div:hover{
+    border: 1px solid green;
+    background-color: #81f090;
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0e19e;
+    font-family: 'Russo One', sans-serif;
+    color: #867878;
+}
+
+.mt{
+    margin-top: 3px;
+}
+
+.clear{
+    width: 30px;
+    height: 19px;
+    background-color: #ffff;
+    position: relative;
+    right: 33px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    top: 6px;
+    cursor: pointer;
+}
+
+.clear::before{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #50524e;
+    transform: rotate(45deg);
+}
+
+.clear::after{
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 15px;
+    background: #50524e;
+    transform: rotate(320deg);
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Add Hotel</title>
+  </head>
+  <body style="font-size: x-large; color: rgb(7, 104, 18)">
+    <center>
+      <div class="addHeading">
+        <h1>
+          <b> ADD HOTELS HERE </b>
+        </h1>
+        <p class="shallow">If you find, know or are the owner of a hotel which is not in our website, please let us know.  </p><br>
+      </div>
+      <hr />
+
+      <div class="add">
+        <div>
+          Hotel Name:
+          <input type="text" placeholder="Hotel" class="names" id="HotelName">
+          <span class="clear" onclick="document.getElementsByClassName('names')[0].value = '';"></span>
+          
+        </div>
+
+        <div>
+          Name of City:
+          <input type="text" placeholder="City" class="names" id="CityName" />
+          <span class="clear" onclick="document.getElementsByClassName('names')[1].value = '';"></span>
+        </div>
+
+        <div>
+          Is the Hotel added on Google Maps:
+          <input type="radio" name="ongoogle" /><span class="shallow">YES</span>
+          <input type="radio" name="ongoogle" /><span class="shallow">NO</span>
+        </div>
+
+        <div>
+          Link of Location <span class="shallow">If added on Maps</span>:
+          <input type="text"  placeholder="Location(Optional)   class="names" id="CityName" />
+          <span class="clear" onclick="document.getElementsByClassName('names')[2].value = '';"></span>
+        </div>
+
+        <div>
+          About Hotel:
+          <textarea placeholder="Hotel Description" cols="50" rows="6" id="Description">
+          </textarea >
+        </div>
+
+        <hr />
+        <h4>We Want to Know You</h4>
+
+        <div class="suggestor">
+          Your Name:
+          <input
+            type="text"
+            placeholder="Name"
+            class="nameOfPerson"
+            id="HotelName"
+          />
+          <span class="clear" onclick="document.getElementsByClassName('nameOfPerson')[0].value = '';"></span>
+        </div>
+        <div class="suggestor">
+          E-Mail:
+          <input
+          type="email"
+          placeholder="abc123@gmail.com"
+          class="nameOfPerson"
+          id="HotelName"
+          />
+          <span class="clear" onclick="document.getElementsByClassName('nameOfPerson')[1].value = '';"></span>
+
+        </div>
+
+        <input type="submit" value="SUBMIT" class="submitHotels">
+
+        <p class="shallow">
+          Your Suggestion is highly valueable and will be considered by the
+          admins.
+        </p>
+      </div>
+    </center>
+  </body>
+</html>
